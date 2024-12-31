@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amazon</title>
+    </head>
+    <body>
+        <div class="hang-hoa"></div>
+        <script>
+            // The VBScript functionality below is not supported in modern browsers.
+            // You can rewrite this logic in JavaScript if needed.
+            /*
+            Public Function mahh(ncc)
+                Dim db as Database 
+                Dim dmhh as Recordset
+                Set db = CurrentDb
+                Set dmhh = db.OpenRecordset("105_dmhh")
+                If dmhh.RecordCount = 0 Then
+                    mahh = ncc & "001"
+                    Exit Function
+                End If 
+                dmhh.Index = "Stt"
+                dmhh.MoveFirst
+                Do Until dmhh.EOF
+                    If Left(dmhh.mahang, 5) = ncc Then
+                        mahh = ncc & Right("00" & Trim(Str(Val(Right(dmhh.mahang, 3)) + 1)), 3)
+                        Exit Function
+                    End If 
+                    dmhh.MoveNext
+                Loop
+                mahh = ncc & "001"
+            End Function
+            */
+
+            // Placeholder for modern implementation of the functionality
+            function generateMahh(ncc) {
+                // Example JavaScript implementation can go here
+                console.log("Generating mahh for NCC:", ncc);
+                return `${ncc}001`; // Example placeholder logic
+            }
+        </script>
+    </body>
+</html>

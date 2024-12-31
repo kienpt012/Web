@@ -1,0 +1,163 @@
+
+/*----------product order--------*/
+
+.product-item-text p {
+    color: black;
+}
+
+.product-item-text h1 {
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+}
+
+.product-item-text h1:hover {
+    color: blue;
+}
+
+.product {
+    margin-top: 30px;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.product .container {
+    /* maxwidth: 1200px; */
+    margin: auto;
+}
+
+.product-items {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    padding: 12px;
+}
+
+.product-item {
+    width: 19%;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.product-item-text {
+    justify-content: space-between;
+}
+
+.product-item button {
+    margin-top: 12px;
+    height: 30px;
+    padding: 0 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.product-item button:hover {
+    background-color: #F51212;
+}
+
+form {
+    margin-left: 10px;
+}
+
+table {
+    color: black;
+}
+
+tbody tr img {
+    width: 100px;
+}
+
+.order {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.order h2 {
+    margin-bottom: 30px;
+    color: black;
+}
+
+.order table {
+    width: 100%;
+}
+
+.order table thead tr th:first-child {
+    text-align: left;
+}
+
+.order table tr td {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+
+.order table thead tr th:last-child {
+    text-align: right;
+}
+
+.order table tbody tr tb:last-child {
+    text-align: right;
+}
+.order{
+    position: fixed;
+    height: 100vh;
+    width: 500px;
+    right: 0;
+    top: 0;
+    background-color: #dc9696;
+    padding: 12px 20px;
+    overflow-y: scroll;
+    right: -100%;
+}
+.order-icon i {
+    cursor: pointer;
+}
+.order i{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.price-total {
+    color: black;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.price-total p {
+    font-weight: bold;
+    margin-right: 10px;
+}
+.product-buttonscart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}.product-buttonscart button {
+    background-color: #f0774f;
+    color: #ffffff;
+    border: 2px solid #ff821c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+/*------------footer-------*/
+
